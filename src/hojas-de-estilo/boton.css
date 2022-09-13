@@ -1,0 +1,38 @@
+.contenedor-contador{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;    
+}
+button{
+    width: 250px;
+    height: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all .1s;
+}
+button:hover{
+    background-color: #00471b;
+}
+button:active{
+    background-color: #008633;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.boton-clic{
+    background-color: #002ead;
+}
+.boton-reiniciar{
+    background-color: #5a01a7;
+}
